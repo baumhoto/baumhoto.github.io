@@ -3,10 +3,10 @@ layout: post
 title: "Hello World"
 date: 2017-03-26 00:57:06
 tags: personal
-description: Here I want to introduce myself.
+description: Get to know me
 ---
 
-## Carreer
+## Career
 
 I've been a professional software developer for almost 10 years. While i was doing mostly Java during my University time and in my first job afterwards, i've been a C# developer since then writing Enterprise applications. Obviously you'll do some website stuff too (using ASP.NET in the past and WebAPI with Angular more recently). Recently we've started to use NodeJs (with AWS Lambda).
 
