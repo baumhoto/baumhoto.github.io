@@ -4,6 +4,9 @@ title: "Hello World"
 date: 2017-03-26 00:57:06
 tags: personal
 description: Get to know me
+image: me.png
+excerpt_separator: <!--more-->
+comments: true
 ---
 
 ## Career
@@ -11,6 +14,10 @@ description: Get to know me
 I've been a professional software developer for almost 10 years. While i was doing mostly Java during my University time and in my first job afterwards, i've been a C# developer since then writing Enterprise applications. Obviously you'll do some website stuff too (using ASP.NET in the past and WebAPI with Angular more recently). Recently we've started to use NodeJs (with AWS Lambda).
 
 As i never changed my job after joining my current company in 2008 i'm also working on some legacy software written in Java 6, JSP 1.0 and even VB6. 
+
+<!--more-->
+
+![My helpful screenshot]({{ site.baseurl | prepend:site.url}}/images/{{page.url}}/me.png){: .center-image }*thats me*
 
 ## Private
 

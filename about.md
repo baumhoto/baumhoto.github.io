@@ -3,6 +3,7 @@ layout: page
 title: About
 
 ---
+![My helpful screenshot]({{ site.baseurl | prepend:site.url}}/images/2017/03/hello-world/me.png){: .center-image }*thats me*
 
 ## Contact
 

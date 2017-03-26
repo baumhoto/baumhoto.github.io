@@ -22,8 +22,16 @@ layout: page
 </div>
 
   <div class="post-descr">
+    {% if post.image %}
+    <img src="{{ site.baseurl | prepend:site.url}}/images/{{post.url}}/{{post.image}}" class="post-intro-image" />
+    {% endif %}
+    <p class=".post-intro-paragraph" > 
+       {{ post.excerpt }}
+    </p>
     <p>
-      {{ post.description }}
+      <a href="{{post.url | prepend:site.baseurl | prepend:site.url}}">
+        Continue reading
+      </a>
     </p>
   </div>
   {% endfor %}
