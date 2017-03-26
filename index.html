@@ -21,9 +21,12 @@ layout: page
   </ul>
 </div>
 
-  <div class="post-descr">
+  <div class="post-descr"
     {% if post.image %}
+    style="height: 300px" >
     <img src="{{ site.baseurl | prepend:site.url}}/images/{{post.url}}/{{post.image}}" class="post-intro-image" />
+    {% else %}
+      >
     {% endif %}
     <p class=".post-intro-paragraph" > 
        {{ post.excerpt }}
