@@ -1,7 +1,9 @@
 ---
-layout: page 
-title: About
-
+layout: post
+title: "Hello World"
+date: 2017-03-26 00:57:06
+tags: various
+description: Here I want to introduce myself.
 ---
 
 ## Carreer
@@ -18,4 +20,9 @@ Computer nerd always interested to try out new OSes and software related to soft
 * Trekkie (watched the TNG and later stuff multiple times. TOS and Animated Series still on Todo list)
 
 ## Status
+
 Single, propably because of all of the above:)
+
+## Future Posts
+
+Will try to write in english but might be that some posts will be in german in the future...
