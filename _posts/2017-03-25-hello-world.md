@@ -2,7 +2,7 @@
 layout: post
 title: "Hello World"
 date: 2017-03-26 00:57:06
-tags: various
+tags: personal
 description: Here I want to introduce myself.
 ---
 
