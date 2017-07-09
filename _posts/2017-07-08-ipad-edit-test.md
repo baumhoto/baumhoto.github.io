@@ -3,9 +3,9 @@ layout: post
 title: "News 8/7/2017"
 date: 2017-07-08 07:57:06
 tags: blog
-description: Creating article on IPad
+description: News
 image: 
-excerpt_separator: <!--more-->
+excerpt_separator:
 comments: false
 ---
 
@@ -17,5 +17,5 @@ Testing to have an News article every day with some news:
 
 * [Schallplatten kommen zurück](http://www.heise.de/newsticker/meldung/Sony-will-wieder-Schallplatten-pressen-3767517.html)
 
-* Interessante Doku über O.J. Simpson gibt es aktuell bei ARTE zu sehen [Made in America](
+* Interessante Doku über O.J. Simpson gibt es aktuell bei ARTE zu sehen. Sind insgesamt 5 Folgen a 90 Minuten. [Made in America](
 http://www.arte.tv/de/videos/071429-001-A/o-j-simpson-made-in-america-1-5)
