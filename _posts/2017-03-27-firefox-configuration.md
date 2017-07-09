@@ -7,6 +7,7 @@ description: My dark-mode Firefox configuration
 image: firefox_preview.jpg
 excerpt_separator: <!--more-->
 comments: true
+fixed: false
 ---
 
 ## Dark-Mode

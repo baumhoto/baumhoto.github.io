@@ -6,6 +6,7 @@ tags: vscode chrome bug
 description: VsCode bug
 excerpt_separator: <!--more-->
 comments: true
+fixed: false
 ---
 
 Recently some reports came up that [Visual Studio Code](https://code.visualstudio.com) was wasting CPU resources to render a blinking cursor [GitHub Issue](https://github.com/Microsoft/vscode/issues/22900).

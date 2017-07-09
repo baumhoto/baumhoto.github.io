@@ -7,6 +7,7 @@ description: Get to know me
 image: me.png
 excerpt_separator: <!--more-->
 comments: true
+fixed: false
 ---
 
 ## Career
