@@ -5,7 +5,7 @@ date: 2017-07-08 07:57:06
 tags: blog
 description: News
 image: 
-excerpt_separator:
+excerpt_separator: <!--more-->
 comments: false
 ---
 

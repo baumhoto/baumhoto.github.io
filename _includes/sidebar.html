@@ -1,3 +1,12 @@
+<div class="sidebar">
+  <h2>Fixed Posts</h2>
+    <ul>
+      {% for fix in site.fixed %}
+    <li><a href="{{ site.baseurl}}{{ fix.url }}">{{ fix.title }}</a></li>
+    {% endfor %}
+    </ul>
+</div>
+
 <div class="sidebar ">
   <h2>Recent Posts</h2>
   <ul>
