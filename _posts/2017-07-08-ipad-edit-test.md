@@ -15,5 +15,7 @@ Testing to have an News article every day with some news:
 
 * [Hollywood is promoting war](https://medium.com/insurge-intelligence/exclusive-documents-expose-direct-us-military-intelligence-influence-on-1-800-movies-and-tv-shows-36433107c307)
 
+* [Schallplatten kommen zurück](http://www.heise.de/newsticker/meldung/Sony-will-wieder-Schallplatten-pressen-3767517.html)
 
-
+* Interessante Doku über O.J. Simpson gibt es aktuell bei ARTE zu sehen [Made in America](
+http://www.arte.tv/de/videos/071429-001-A/o-j-simpson-made-in-america-1-5)
