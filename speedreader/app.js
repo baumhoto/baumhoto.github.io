@@ -4,9 +4,9 @@ var readInterval = null,
     readIndex = 0,
     preparedChunks = [],
     prefs = {
-        speed: 200,
+        speed: 250,
         night: false,
-        merge: true
+        merge: false
     };
 
 
@@ -48,7 +48,7 @@ function prepare(text) {
         }
     }
 
-    $('#text-info').html('Words: ' + words.length).show();
+    $('#text-info').html('Words: ' + readIndex + '/' + words.length).show();
     $('body').data('prepared', true);
 }
 
@@ -91,6 +91,7 @@ function flashWords(array) {
         'value': readIndex,
         'step': 1
     });
+    $('#text-info').html('Words: ' + readIndex + '/' + preparedChunks.length).show();
 }
 
 function savePrefs() {
