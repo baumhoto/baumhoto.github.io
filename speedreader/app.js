@@ -197,6 +197,15 @@ $(document).ready(function() {
         savePrefs();
     });
 
+    $('#reading-screen').on('click', function() {
+        if($('body').data('reading') === true) {
+            stop();
+        } else {
+            start();
+        } 
+    });
+    
+
     $('#merge').on('change', function() {
         if($(this).is(':checked')) {
             prefs.merge = true;
