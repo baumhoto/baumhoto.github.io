@@ -238,5 +238,9 @@ $(document).ready(function() {
             }
 
         }
+        else if(e.keyCode == 27) {
+            //  Escape
+            stop();
+        }
     });
 });
