@@ -88,7 +88,7 @@ function flashWords(array) {
         'max': preparedChunks.length,
         'value': readIndex,
         'step': 1
-    });
+    }).hide();
 }
 
 function savePrefs() {
