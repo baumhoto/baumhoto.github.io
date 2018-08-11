@@ -19,14 +19,14 @@ p {
 }
 em {
     font-weight: normal;
-    color: #4BA9A9;
+    color: #C0C0C0;
 }
 #container {
     width: 560px;
     margin: 0 auto;
     margin-top: 30px;
     padding: 20px;
-    background: #fbfbfb;
+    background: #252626;
     border-radius: 3px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.25);
 }
