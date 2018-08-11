@@ -64,6 +64,7 @@ function start() {
     readInterval = window.setInterval(flashWords, interval, preparedChunks);
     $('#start').html('Pause');
     $('body').data('reading', true);
+    $('#other, #options').fadeOut(500);
 }
 
 function stop() {
@@ -132,7 +133,6 @@ $(document).ready(function() {
                 $('#reading-screen, #new').fadeIn(250);
             });
             $('h1').animate({height: 0, opacity: 0}, 500);
-            $('#other, #options').fadeOut(500);
             $('#merge').attr('disabled', true).parent().css('opacity', 0.5);
         } else {
             stop();
