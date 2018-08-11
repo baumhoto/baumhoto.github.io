@@ -65,6 +65,7 @@ function start() {
     $('#start').html('Pause');
     $('body').data('reading', true);
     $('#other, #options').fadeOut(500);
+    $('#text-progress').hide();
 }
 
 function stop() {
@@ -72,6 +73,7 @@ function stop() {
     $('#start').html('Read!');
     $('body').data('reading', false);
     $('#other, #options').fadeIn(500);
+    $('#text-progress').show();
 }
 
 function flashWords(array) {
@@ -88,7 +90,7 @@ function flashWords(array) {
         'max': preparedChunks.length,
         'value': readIndex,
         'step': 1
-    }).hide();
+    });
 }
 
 function savePrefs() {
