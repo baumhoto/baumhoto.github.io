@@ -64,14 +64,14 @@ function start() {
     readInterval = window.setInterval(flashWords, interval, preparedChunks);
     $('#start').html('Pause');
     $('body').data('reading', true);
-    $('#other, #options, #text-progress').fadeOut(500);
+    $('#other, #options').fadeOut(500);
 }
 
 function stop() {
     window.clearInterval(readInterval);
     $('#start').html('Read!');
     $('body').data('reading', false);
-    $('#other, #options, #text-progress').fadeIn(500);
+    $('#other, #options').fadeIn(500);
 }
 
 function flashWords(array) {
@@ -88,7 +88,7 @@ function flashWords(array) {
         'max': preparedChunks.length,
         'value': readIndex,
         'step': 1
-    }).show();
+    });
 }
 
 function savePrefs() {
