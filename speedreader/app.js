@@ -131,7 +131,7 @@ $(document).ready(function() {
                 $('#reading-screen, #new').fadeIn(250);
             });
             $('h1').animate({height: 0, opacity: 0}, 500);
-            $('#other').fadeOut(500);
+            $('#other, #options').fadeOut(500);
             $('#merge').attr('disabled', true).parent().css('opacity', 0.5);
         } else {
             stop();
@@ -173,7 +173,7 @@ $(document).ready(function() {
 
     $('#new').on('click', function() {
         $('#reading-screen').hide();
-        $('#text-to-read, #other').fadeIn(500);
+        $('#text-to-read, #other, #options').fadeIn(500);
         $('h1').animate({height: '26px', opacity: 1}, 500);
         $(this).fadeOut(500);
         $('#merge').attr('disabled', false).parent().css('opacity', 1);
