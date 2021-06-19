@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+<channel>
+<title>Blog</title>
+<link>http://localhost:8000/</link>
+<description>Grow with Technology</description>
+
+<item>
+<title>Blog 2</title>
+<link>http://localhost:8000/blog/sed-finibus/</link>
+<description>
+<![CDATA[
+<p>
+Sed finibus fermentum convallis. Sed consequat, lacus a pellentesque suscipit, lorem libero egestas dui, sit amet volutpat mi dolor sit amet nisl. Maecenas faucibus iaculis&nbsp;<a href="http://localhost:8000/blog/sed-finibus/">...</a>
+</p>
+<p><a href="http://localhost:8000/blog/sed-finibus/">Read More</a></p>
+]]>
+</description>
+<pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Dark Mode</title>
+<link>http://localhost:8000/blog/proin-quam/</link>
+<description>
+<![CDATA[
+<p>
+Dark-Mode Over the last years i've become more and more obsessed with dark-mode for all the programs i use. Also the reason why this website&nbsp;<a href="http://localhost:8000/blog/proin-quam/">...</a>
+</p>
+<p><a href="http://localhost:8000/blog/proin-quam/">Read More</a></p>
+]]>
+</description>
+<pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+</item>
+
+
+</channel>
+</rss>
